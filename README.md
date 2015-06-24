@@ -1,4 +1,4 @@
-#Accordion [v1.0.2]
+#Accordion [v1.0.3]
 *An Accordion library in js for your websites that can be customized easily with overwriting the variable*
 
 ###Try it out:
