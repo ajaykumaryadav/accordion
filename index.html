@@ -62,11 +62,12 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $("#accordion").accordion({
-      tabClick: ".topWrap", 
+      tabClick: ".topWrap",
       tabContent: ".details",
       accordAnimation: "800",
       bodyAnimation: "1000",
       delay: "500",
+      parentActiveClassWrap: "li",
       spaceTop: "0"
     });
   });
