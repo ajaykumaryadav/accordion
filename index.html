@@ -62,9 +62,10 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $("#accordion").accordion({
-      tabClick: ".topWrap", 
+      tabClick: ".topWrap",
       tabContent: ".details",
       accordAnimation: "800",
+      parentActiveClassWrap: "li",
       bodyAnimation: "800",
       spaceTop: "0"
     });
